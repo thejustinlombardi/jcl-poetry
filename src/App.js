@@ -1,4 +1,4 @@
-import Button from "react-bootstrap/Button";
+import { Routes, Route } from "react-router-dom";
 
 import Navigation from "./components/Navigation/Navigation";
 
@@ -9,6 +9,9 @@ function App() {
 	return (
 		<div>
 			<Navigation />
+			<Routes>
+				<Route></Route>
+			</Routes>
 		</div>
 	);
 }
