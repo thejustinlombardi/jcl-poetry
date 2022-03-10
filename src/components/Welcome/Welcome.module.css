@@ -1,0 +1,17 @@
+.welcome_container {
+	background-color: #19270d;
+}
+
+.welcome_link {
+	text-decoration: none;
+	color: #25591f;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2rem;
+}
+
+.welcome_img {
+	height: 80%;
+}

@@ -14,9 +14,9 @@ import styles from "./Navigation.module.css";
 function Navigation(props) {
 	return (
 		<div className={styles.nav_container}>
-			<Navbar variant="light" expand={false}>
+			<Navbar variant="dark" expand={false}>
 				<Container fluid>
-					<Navbar.Brand href="#home">
+					<Navbar.Brand href="home">
 						<img
 							src="https://i.imgur.com/6hVEsYW.png"
 							width="50"
@@ -36,10 +36,10 @@ function Navigation(props) {
 							</Offcanvas.Title>
 						</Offcanvas.Header>
 						<Offcanvas.Body>
-							<Nav className="justify-content-end flex-grow-1 pe-3">
-								<Nav.Link href="#action1">Home</Nav.Link>
-								<Nav.Link href="#action2">Poems</Nav.Link>
-								<Nav.Link href="#action2">Contact</Nav.Link>
+							<Nav className="justify-content-end flex-grow-1 pe-3 ">
+								<Nav.Link href="home">Home</Nav.Link>
+								<Nav.Link href="poems">Poems</Nav.Link>
+								<Nav.Link href="contact">Contact</Nav.Link>
 							</Nav>
 						</Offcanvas.Body>
 					</Navbar.Offcanvas>
