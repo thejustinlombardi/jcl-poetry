@@ -1,3 +1,12 @@
 .nav_container {
-	background-color: #25591f;
+	margin-left: 20px;
+	background-color: #f8f9fa;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.bread_container a {
+	text-decoration: none;
+	color: darkgray;
 }
