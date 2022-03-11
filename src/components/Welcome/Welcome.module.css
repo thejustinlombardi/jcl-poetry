@@ -1,22 +1,36 @@
 .welcome_container {
+	background-color: whitesmoke;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: #19270d;
+	flex-direction: row;
 }
 
-.welcome_link {
+.good_video_container {
+	height: 100vh;
+	opacity: 0.4;
+}
+
+.good_video {
+	height: 100vh;
+}
+
+.logo {
+	opacity: 0;
+	position: absolute;
 	text-decoration: none;
-	color: white;
-
-	font-size: 2rem;
+	color: black;
+	top: 70%;
+	left: 50%;
+	animation: fadein 40s;
 }
 
-.welcome_img {
-	height: 500px;
-}
-
-.welcome_room {
-	height: 100px;
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
 }
