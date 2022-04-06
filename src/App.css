@@ -1,4 +1,9 @@
 * {
 	box-sizing: border-box;
-	background-color: rgba(254, 242, 235, 100%);
+	/* background-color: rgba(254, 242, 235, 100%); */
+	
+}
+
+body {
+background-image: url('./assets/poetry-background.jpg');
 }

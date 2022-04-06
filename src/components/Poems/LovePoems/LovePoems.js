@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
+import styles from "./LovePoem.module.css";
+
 function LovePoems() {
 	const [lovePoem, setLovePoem] = useState([]);
 
@@ -16,17 +18,23 @@ function LovePoems() {
 	};
 
 	useEffect(() => {
-		// set timeout for when there's nothing in the response to load the no posts element
-
 		getLovePoems();
 	}, []);
 
 	return (
-		<div>
+		<div className={styles.poem_container}>
 			{lovePoem.map((poem, idx) => {
-				poem.poem.map((line) => {
-					return <p>{line}</p>;
-				});
+				return (
+					<div>
+						<h2>{poem.title}</h2>
+						<div>
+							{poem.poem.map((line) => {
+								console.log(line);
+								return <p>{line}</p>;
+							})}
+						</div>
+					</div>
+				);
 			})}
 		</div>
 	);
