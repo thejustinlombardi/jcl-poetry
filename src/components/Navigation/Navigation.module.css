@@ -1,6 +1,7 @@
 .nav_container {
 
 	background-color: gray;
+	opacity: 1;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -9,4 +10,5 @@
 .bread_container a {
 	text-decoration: none;
 	color: darkgray;
+	opacity: 1;
 }

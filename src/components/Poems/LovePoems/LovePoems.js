@@ -25,7 +25,7 @@ function LovePoems() {
 		<div className={styles.poem_container}>
 			{lovePoem.map((poem, idx) => {
 				return (
-					<div>
+					<div className={styles.poem_div}>
 						<h2>{poem.title}</h2>
 						<div>
 							{poem.poem.map((line) => {
