@@ -1,6 +1,6 @@
 .nav_container {
-	margin-left: 20px;
-	background-color: #f8f9fa;
+
+	background-color: gray;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;

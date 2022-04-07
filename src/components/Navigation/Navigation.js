@@ -4,7 +4,7 @@ import styles from "./Navigation.module.css";
 
 function Navigation(props) {
 	return (
-		<div>
+		<div className={styles.nav_container}>
 			<Navbar expand="lg">
 				<Container>
 					<Navbar.Brand href="home">
