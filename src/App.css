@@ -5,6 +5,10 @@
 }
 
 body {
-background-image: url('./assets/poetry-background.jpg');
+background-image: url('./assets/Background_poems.png');
+background-repeat: no-repeat;
+background-position: 50%;
+background-size: cover;
+height: 160vh;
 
 }
