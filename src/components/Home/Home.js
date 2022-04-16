@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import styles from "./Home.module.css";
 
@@ -15,6 +16,21 @@ function Home(props) {
 			<p>but today I can't. </p>
 			<p>Some days I'm okay, </p>
 			<p>but today I'm not.</p>
+			<Link to={"/love-poems"}>
+				<div>
+					<img src="" alt="" />
+				</div>
+			</Link>
+			<Link to={"/dark-poems"}>
+				<div>
+					<img src="" alt="" />
+				</div>
+			</Link>
+			<Link to={"/misc-poems"}>
+				<div>
+					<img src="" alt="" />
+				</div>
+			</Link>
 		</div>
 	);
 }
