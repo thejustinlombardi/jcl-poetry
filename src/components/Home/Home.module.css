@@ -1,7 +1,19 @@
 .daily_poem {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	height: 100vh;
+}
+
+img {
+	object-fit: fill;
+	border-radius: 5px;
+	width: 200px;
+	
+}
+
+.img_links {
+	margin: 10px;
 }
