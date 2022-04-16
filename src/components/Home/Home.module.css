@@ -16,4 +16,29 @@ img {
 
 .img_links {
 	margin: 10px;
+	text-decoration: none;
+}
+
+.love_text {
+	color: white;
+	text-decoration: none;
+	z-index: 1;
+	margin: -150px;
+	transform: rotate(-45deg);
+	opacity: 0;
+}
+
+.love_text:hover {
+	opacity: 1;
+	animation: fadein 1s;
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
