@@ -2,6 +2,7 @@
 	background-color: whitesmoke;
 	display: flex;
 	flex-direction: row;
+
 }
 
 .good_video_container {
@@ -14,13 +15,15 @@
 }
 
 .logo {
-	opacity: 0;
+	opacity: 1;
 	position: absolute;
 	text-decoration: none;
 	color: black;
 	top: 70%;
 	left: 50%;
 	animation: fadein 40s;
+	font-family: 'Rubik Glitch',
+	cursive;
 }
 
 @keyframes fadein {
